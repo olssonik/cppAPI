@@ -20,7 +20,7 @@ SRCS = $(wildcard $(SRCDIR)/*.cpp)
 OBJS = $(SRCS:$(SRCDIR)/%.cpp=$(OUTPUTDIR)/%.o)
 
 # Executable
-TARGET = $(OUTPUTDIR)/your_program
+TARGET = $(OUTPUTDIR)/program
 
 .PHONY: all clean run
 
